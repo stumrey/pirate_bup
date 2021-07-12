@@ -1,0 +1,69 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>STUMREY: Pirate Game</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/main.css" type="text/css">
+        <script src="../scripts/menu.js"></script>
+	<script src="../scripts/vars.js"></script>
+    <script src="../scripts/common.js"></script>
+    <script src="../scripts/grid.js"></script>
+
+	</head>
+<body>
+<audio id="sndError">
+	<source src="../sounds/error.ogg" type="audio/ogg">
+</audio>
+
+<audio id="sndTheme">
+	<source src="../sounds/theme.ogg" type="audio/ogg">
+</audio>
+<audio id="sndVillage">
+	<source src="../sounds/village.ogg" type="audio/ogg">
+</audio>
+<audio id="sndCoin">
+	<source src="../sounds/coin.ogg" type="audio/ogg">
+</audio>
+<audio id="sndDock">
+	<source src="../sounds/docking.ogg" type="audio/ogg">
+</audio>
+<audio id="sndTools">
+	<source src="../sounds/tools.ogg" type="audio/ogg">
+</audio>
+<audio id="sndUpgrade">
+	<source src="../sounds/upgrade.ogg" type="audio/ogg">
+</audio>
+<audio id="sndDecoy">
+	<source src="../sounds/decoy.ogg" type="audio/ogg">
+</audio>
+<audio id="sndExplode">
+	<source src="../sounds/explode.ogg" type="audio/ogg">
+</audio>
+<audio id="sndFight">
+	<source src="../sounds/fight.ogg" type="audio/ogg">
+</audio>
+<div class="main-wrapper" id="container">
+		<canvas class="canvas" id="demo" width="512" height="512">
+		</canvas>		
+	
+	<div class="dockmsg">
+		<canvas id="mess" width="350" height="350" style="visibility: hidden"></canvas>
+	</div>
+</div>
+
+
+
+<div class="map-wrapper">
+    <canvas id="map" width="120" height="120"></canvas>
+	
+</div>
+<div class="status-wrapper">
+    <canvas id="status" width="120" height="360"></canvas>
+</div>
+<div class="activity-wrapper">
+    <canvas id="activity" width="652" height="100"></canvas>
+</div>
+<input id="debug"></input>
+</body>
+</html>
