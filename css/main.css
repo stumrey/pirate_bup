@@ -1,0 +1,57 @@
+
+
+canvas {
+    background: blue;
+	 border-radius: 25px;
+  border: 7px solid #000000;
+}
+
+.main-wrapper {
+    width: 512px;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 0 auto;
+	position:absolute;
+}
+
+#container
+{
+	position:absolute;
+}
+
+.dockmsg {
+    padding-left: 70px;
+    padding-top: 150px;
+	z-index:1;
+    padding-right: 1em;
+    margin: 0 auto;
+	position:absolute;
+}
+
+
+.canvas
+{
+	position:absolute; 
+	top: 0;
+	left: 0;
+}
+.activity-wrapper {
+    padding-left: 0px;
+	padding-top: 530px;
+ padding-right: 1em;
+    margin: 0 auto;
+	position:absolute;
+}
+.status-wrapper {
+    padding-left: 530px;
+	padding-top: 150px;
+ padding-right: 1em;
+    margin: 0 auto;
+	position:absolute;
+}
+.map-wrapper {
+    padding-left: 530px;
+    padding-right: 1em;
+    margin: 0 auto;
+	position:absolute;
+}
